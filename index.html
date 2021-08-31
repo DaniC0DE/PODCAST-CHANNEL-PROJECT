@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1e83907ccd.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="nav-bar" id="desktop-nav-bar">
+        <img class="logo-nav-bar" src="./RECURSOS/landingUI_desktop_mobile_kit/assets/logo.svg" alt="logodelheader">
+        <div class="right-nav-bar">
+            <a href="#episodios">EPISODIOS</a>
+            <a href="#nosotros" class="nav-margin-left">NOSOTROS</a>
+            <a href="#entrevistas" class="nav-margin-left">ENTREVISTAS</a>
+            <a href="#topicos" class="nav-margin-left">TÓPICOS</a>
+        </div>
+    </nav>
+    <nav class="nav-bar mobile-menu">
+        <input type="checkbox" id="burgermenu">
+        <label for="burgermenu">
+            <div class="menucontainer">
+              <div class="bar stick1"></div>
+              <div class="bar stick2"></div>
+              <div class="bar stick3"></div>
+            </div>
+          </label>
+        <div class="burger-menu-options">
+            <a href="#episodios">EPISODIOS</a>
+            <a href="#nosotros">NOSOTROS</a>
+            <a href="#entrevistas">ENTREVISTAS</a>
+            <a href="#topicos">TÓPICOS</a>
+        </div>
+    </nav>
+    <header class="head-intro">
+        <h1 class="title"> Hello <span class="line-through">world</span> pale blue dot<span class="blue">.</span></h1>
+        <h2 class="subtitle">El portal de podcast que explora el mundo de la programación y <br>la tecnología.Nuevos
+            episodios, todos los jueves cada 15 días.</h2>
+        <a href="#nosotros"><button class="conocemas-button" type="button">CONOCÉ MÁS</button></a>
+    </header>
+    <main>
+        <section id="episodios">
+            <div class="rectangle polygon-cut">
+            </div>
+            <h2 class="episodios-title">Episodios</h2>
+            <div class="container-podcast">
+                <iframe class="podcast-class" src="https://open.spotify.com/embed/episode/6NCjkNuvBUSA7ncZA57Cet"
+                    width="45%" height="50%" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <iframe class="podcast-class" src="https://open.spotify.com/embed/episode/5h5E0Wbd8muLuYl2z2f0Ca"
+                    width="45%" height="50%" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <iframe class="podcast-class" src="https://open.spotify.com/embed/episode/1D8IULZg5CIGbgmZ6md2c7"
+                    width="45%" height="50%" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <iframe class="podcast-class" src="https://open.spotify.com/embed/episode/1iIfNYIJK5rH2LUpKvkA49"
+                    width="45%" height="50%" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            </div>
+        </section>
+        <section id="nosotros">
+            <div>
+                <img class="phoneimage" src="./RECURSOS/landingUI_desktop_mobile_kit/assets/phone.png" alt="phoneimage">
+            </div>
+            <div class="origen-element">
+                <h2 class=dedondevenimos-title>De dónde venimos</h2>
+                <p class="dedondevenimos-parrafo">Our posturings, our imagined self-importance, the delusion that we
+                    have some privileged position in the Universe, are challenged by this point of pale light.
+                </p>
+                <p class="dedondevenimos-parrafo">Our planet is a lonely speck in the great enveloping cosmic dark. In
+                    our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us
+                    from ourselves.
+                </p>
+            </div>
+        </section>
+        <section class="interview-container" id="entrevistas">
+            <div class="guess-title">Invitadas/os estelares</div>
+            <div class="pictures-container">
+                <img src="./RECURSOS/landingUI_desktop_mobile_kit/assets/pics/img1.png" alt="Grace-Hopper"
+                    class="guess-pic">
+                <img src="./RECURSOS/landingUI_desktop_mobile_kit/assets/pics/img2.png" alt="Katie-Bouman"
+                    class="guess-pic">
+                <img src="./RECURSOS/landingUI_desktop_mobile_kit/assets/pics/img3.png" alt="Margaret_Hamilton"
+                    class="guess-pic">
+                <img src="./RECURSOS/landingUI_desktop_mobile_kit/assets/pics/img4.png"
+                    alt="An E.R.A.Univac 1103 computer in the 1950s" class="guess-pic">
+                <img src="./RECURSOS/landingUI_desktop_mobile_kit/assets/pics/img5.png"
+                    alt="Computer operators with an Eniac — the world’s first programmable general-purpose computer"
+                    class="guess-pic">
+                <img src="./RECURSOS/landingUI_desktop_mobile_kit/assets/pics/img6.png" alt="Susan-Kare"
+                    class="guess-pic">
+            </div>
+        </section>
+        <section class="topic-container" id="topicos">
+            <h2 class="topic-title">Algunos de nuestros temas</h2>
+            <div class=topic-icons-container>
+                <div class="topic-icon-box">
+                    <img class="topic-icons" src="./RECURSOS/landingUI_desktop_mobile_kit/assets/icon1.svg"
+                        alt="trabajo-remoto">
+                    <div class="topic-subtitles">Trabajo remoto</div>
+                </div>
+                <div class="topic-icon-box">
+                    <img class="topic-icons" src="./RECURSOS/landingUI_desktop_mobile_kit/assets/icon2.svg"
+                        alt="repensando-la-programacion">
+                    <div class="topic-subtitles">Repensando la <br> programación</div>
+                </div>
+                <div class="topic-icon-box">
+                    <img class="topic-icons" src="./RECURSOS/landingUI_desktop_mobile_kit/assets/icon3.svg"
+                        alt="bases-del-codigo">
+                    <div class="topic-subtitles">Bases del código</div>
+                </div>
+                <div class="topic-icon-box">
+                    <img class="topic-icons" src="./RECURSOS/landingUI_desktop_mobile_kit/assets/icon4.svg"
+                        alt="seguridad-informatica">
+                    <div class="topic-subtitles">Seguridad <br> Informática</div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="novedades">
+            <div class="polygon-footer polygon-cut-footer"></div>
+            <div class="footer-title">¿Querés las últimas novedades?</div>
+            <a href="#episodios"><button class="escucha-button" type="button">ESCUCHÁ LOS EPISODIOS</button></a>
+        </section>
+        <section class="bottom-page">
+            <div class="bottom-page-text">© 2019— Hello blue pale dot </div>
+            <div class="bottom-page-icons">
+                <a class="color-icons" href="https://www.spotify.com/bo/home/"><i class="fab fa-spotify"></i></a>
+                <a class="color-icons" href="https://www.instagram.com/?hl=es-la"><i class="fab fa-instagram"></i></a>
+                <a class="color-icons" href="https://twitter.com/?lang=es"><i class="fab fa-twitter"></i></a>
+                <a class="color-icons" href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+                <a class="color-icons" href="https://web.telegram.org/#/login"><i class="fab fa-telegram"></i></a>
+            </div>
+        </section>
+    </footer>
+
+</body>
+
+</html>
