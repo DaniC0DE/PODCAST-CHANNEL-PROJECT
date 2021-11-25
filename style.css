@@ -131,10 +131,10 @@ nav>div.burger-menu-options {
 }
 
 @media screen and (max-width:1000px) {
+    
     .right-nav-bar a {
         margin-right: -20px;
     }
-
 }
 
 @media screen and (max-width:750px) {
@@ -144,8 +144,8 @@ nav>div.burger-menu-options {
 
     .mobile-menu {
         display: block;
-        
     }
+
     .menucontainer{
         display:block;
     }
